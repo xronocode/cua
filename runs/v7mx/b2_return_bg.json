@@ -1,0 +1,8 @@
+{
+  "delivery": {
+    "mode": "background"
+  },
+  "effect": "unverifiable",
+  "route": "synthetic_events",
+  "summary": "✅ Pressed return on pid 16861."
+}

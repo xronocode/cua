@@ -1,0 +1,11 @@
+{
+  "code": "same_pid_keyboard_ambiguity",
+  "effect": "refused",
+  "escalation": {
+    "reason": "pid 16861 owns 1 other eligible top-level window(s); process-scoped key events cannot be proven to reach window 55239 and could mutate a sibling window. Use an exact element action, the page tool for browser content, or delivery_mode:\"foreground\"",
+    "recommended": "accessibility"
+  },
+  "pid": 16861,
+  "reason": "pid 16861 owns 1 other eligible top-level window(s); process-scoped key events cannot be proven to reach window 55239 and could mutate a sibling window. Use an exact element action, the page tool for browser content, or delivery_mode:\"foreground\"",
+  "window_id": 55239
+}

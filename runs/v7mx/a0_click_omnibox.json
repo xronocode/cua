@@ -1,0 +1,8 @@
+{
+  "delivery": {
+    "mode": "foreground"
+  },
+  "effect": "unverifiable",
+  "route": "accessibility",
+  "summary": "✅ Performed AXPress on [3] AXTextField \"Address and search bar\".\n\n🪟 Action opened new window(s): Google Chrome."
+}

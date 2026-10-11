@@ -1,0 +1,8 @@
+{
+  "delivery": {
+    "mode": "foreground"
+  },
+  "effect": "unverifiable",
+  "route": "global_input",
+  "summary": "✅ Pressed return on pid 16861 (delivery_mode:foreground)."
+}

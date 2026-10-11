@@ -1,0 +1,14 @@
+{
+  "delivery": {
+    "delivered_count": 32,
+    "mode": "background"
+  },
+  "effect": "confirmed",
+  "evidence": [
+    {
+      "kind": "value_readback"
+    }
+  ],
+  "route": "accessibility",
+  "summary": "✅ Inserted 32 char(s) into [3] AXTextField \"Address and search bar\"."
+}

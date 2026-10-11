@@ -1,0 +1,19 @@
+driver: cua-driver 0.34.0 | chrome: Google Chrome 155.0.8059.39  | os: 26.6.2
+target: pid=16861 window=55239 title='REPRO-BEFORE'
+omnibox token: s00000672:3
+a1_type: effect=confirmed route=accessibility
+a2_return_bg: REFUSED same_pid_keyboard_ambiguity (effect=refused)
+     title after A2: 'REPRO-BEFORE'
+a3_return_fg_elem: effect=unverifiable route=global_input
+     title after A3: 'REPRO-BEFORE'
+-- reset done; title now: 'REPRO-BEFORE' (omnibox buffer may hold concatenated text: inserts append) --
+-- Phase B precondition: frontmost bundle='com.apple.finder' (not Chrome) --
+b1_type: effect=confirmed route=accessibility
+b2_return_bg: effect=unverifiable route=synthetic_events
+     title after B2: 'REPRO-BEFORE'
+b3_return_fg: effect=unverifiable route=global_input
+     title after B3: 'Error response'
+b4_return_fg_elem: effect=unverifiable route=global_input
+     title after B4: 'Error response'
+
+== artifacts in /tmp/cua-repro-run-v7mx: raw <step>.json per call, *.png screenshots, run_manifest.tsv, run_output.txt (this transcript) ==

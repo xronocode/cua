@@ -1,0 +1,10 @@
+setup	window_found	REPRO-BEFORE
+A1	a1_type.json	fill omnibox (frontmost; insert onto selection)
+A2	a2_return_bg.json	title=REPRO-BEFORE
+A3	a3_return_fg_elem.json	title=REPRO-BEFORE
+reset	r1_type+r2_return	title=REPRO-BEFORE
+B_precondition	frontmost	com.apple.finder
+B1	b1_type.json	AX insert while unfocused
+B2	b2_return_bg.json	title=REPRO-BEFORE
+B3	b3_return_fg.json	title=Error response
+B4	b4_return_fg_elem.json	title=Error response
